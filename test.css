@@ -1,0 +1,13 @@
+body {
+    display: grid;
+    grid-template-columns: auto 1fr;
+
+}
+
+.navbar {
+    height: 100vh;
+}
+
+li {
+    display: block;
+}
