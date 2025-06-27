@@ -86,7 +86,7 @@ export default function TodoItem({ todo , onUpdate}) {
 )}
 
       <div className='py-2'>
-        <button className="ml-2 px-2 py-1 text-sm bg-blue-400 text-white rounded hover:bg-red-600" onClick={() => setIsEditing(true)}>
+        <button className="ml-2 px-2 py-1 text-sm bg-blue-400 text-white rounded hover:bg-blue-500" onClick={() => setIsEditing(true)}>
         Edit
       </button>
       <button
